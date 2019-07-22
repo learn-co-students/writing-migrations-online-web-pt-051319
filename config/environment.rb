@@ -18,3 +18,6 @@ def drop_db
     DB.execute("DROP TABLE #{table}")
   end
 end
+
+# require_relative "../app/models/student.rb"
+# require_relative "../student.rb"
